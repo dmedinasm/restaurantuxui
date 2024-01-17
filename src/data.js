@@ -1,0 +1,1 @@
+export const navElements = ['Home', 'Pages','Contact Us','Blog', 'Landing']

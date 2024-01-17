@@ -1,13 +1,26 @@
 import React, { useState } from 'react'
-import './App.css'
+import { Header, Hero, MenuMain, Reservation, Testimony, Special, Chef, About, Blog, Awards, GalleryContainer, Footer } from './containers/index'
+import { Video } from './components/index'
 
-function App() {
+const App = () => {
 
   return (
     <>
-      <h1 className="text-2xl font-bold underline text-blue-500">
-        Hello World !
-      </h1>
+      <div className="bg-secondary">
+        <Header />
+        <Hero />
+        <About />
+        <Reservation />
+        <MenuMain />
+        <Special />
+        <Chef />
+        <Testimony />
+        <Video />
+        <Awards />
+        <Blog />
+        <GalleryContainer />
+        <Footer />
+      </div>
     </>
   )
 }
