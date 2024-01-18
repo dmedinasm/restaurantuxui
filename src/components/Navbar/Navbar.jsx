@@ -3,10 +3,10 @@ import { navElements } from '../../data'
 const Navbar = () => {
   return (
     <div>
-        <ul className="flex flex-row ">
+        <ul className="flex mb-3 lg:mb-0 flex-col items-end lg:flex-row ">
             {
                 navElements.map (value => 
-                    <li key={value} className="p-[1rem] text-white cursor-pointer hover:text-slate-300 font-opensans tracking-[0.04rem] font-normal leading-7">{value}</li>
+                    <li key={value} className=" text-[14px]  p-[0.5rem] text-white cursor-pointer hover:text-slate-300 font-opensans tracking-[0.05rem] font-normal lg:text-[1rem] leading-7">{value}</li>
                     )
             }
         </ul>
