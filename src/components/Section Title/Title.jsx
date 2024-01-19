@@ -1,8 +1,15 @@
 import React from 'react'
-
-const Title = () => {
+import decoration from '../../assets/decorationTitle.png'
+const Title = ({title}) => {
   return (
-    <div>Title</div>
+    <div className="flex flex-col">
+      <div className=" text-white font-cormorant font-bold text-[18px] leading-[30px] tracking-tight[0.92px]">
+        {title}
+      </div>
+      <div className="mt-2">
+        <img src={decoration} alt="title"/>
+      </div>
+    </div>
   )
 }
 
