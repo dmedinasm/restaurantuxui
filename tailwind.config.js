@@ -12,7 +12,7 @@ module.exports  =  {
         cormorant: ['Cormorant Upright', 'serif'],
         opensans: ['Open Sans', 'sans-serif']
 
-      }
+      },
     },
   },
   plugins: [],

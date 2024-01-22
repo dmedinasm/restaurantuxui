@@ -1,9 +1,10 @@
 import React from 'react'
 import { Title } from '../../components/index'
 import HeroImg from '../../assets/Hero img.png'
+import slider from '../../assets/Slider.png'
 const Hero = () => {
   return (
-    <section className="flex flex-row justify-center items-center mt-12 gap-[128px] relative">
+    <section className="flex flex-row justify-center items-center my-12 gap-[128px] relative">
       <div className="absolute -rotate-90 left-10 top-[40px]">
         <p className="font-opensans cursor-pointer  font-normal text-[14px] text-white leading-6 tracking-[0.56px]inline-block">#Gericht</p>
       </div>
@@ -27,8 +28,17 @@ const Hero = () => {
       <div className="w-[476px] h-[526]">
         <img src={HeroImg} alt='hero' className="w-[100%]" />
       </div>
-     
-     
+      <div className="position absolute top-[100%] mt-12">
+        <img className="w-[116px] h-[28px] " src={slider} alt="slider" />
+      </div>
+      <div className="absolute right-[5%] top-[99%]  ">
+        <div className="mb-10">
+          <div className="  border border-solid bg-gradient-to-r from-primary to-[rgba(220,202,135,0.24)]   rotate-90"></div>
+        </div>
+        <div>
+          <p className="font-cormorant font-bold text-[14px] leading-6 text-primary">SCROLL</p>
+        </div>
+      </div>
     </section>
   )
 }
