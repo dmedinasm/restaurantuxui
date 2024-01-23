@@ -29,7 +29,7 @@ const Header = () => {
       </div>
       {
         isOpen &&
-         <div className=" lg:hidden flex flex-col items-end absolute top-[80px] right-3 bg-slate-600 rounded">
+         <div className=" lg:hidden z-10 flex flex-col items-end absolute top-[80px] right-3 bg-slate-600 rounded">
           <Navbar />
           <p className="md:hidden ml-3 mr-2 mb-3 cursor-pointer hover:text-slate-300 font-opensans font-semibold text-white">Log in</p>
           <p className="md:hidden ml-3 mr-2 mb-3 cursor-pointer hover:text-slate-300 font-opensans font-semibold text-white">Registration</p>

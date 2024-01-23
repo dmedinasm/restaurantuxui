@@ -2,7 +2,7 @@ import React from 'react'
 import decoration from '../../assets/decorationTitle.png'
 const Title = ({title}) => {
   return (
-    <div className="flex flex-col">
+    <div >
       <div className=" text-white font-cormorant font-bold text-[18px] leading-[30px] tracking-tight[0.92px]">
         {title}
       </div>
