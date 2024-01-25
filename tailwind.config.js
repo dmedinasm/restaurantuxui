@@ -15,7 +15,8 @@ module.exports  =  {
 
       },
       backgroundImage: {
-        'bgAbout': "url('./assets/BGAbout.png')", 
+        'bgAbout': "url('./assets/BGAbout.png')",
+        'bgMenu' : "url('./assets/bgMenu.png')" 
       }
       
     },
