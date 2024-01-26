@@ -11,12 +11,14 @@ module.exports  =  {
       },
       fontFamily:{
         cormorant: ['Cormorant Upright', 'serif'],
-        opensans: ['Open Sans', 'sans-serif']
+        opensans: ['Open Sans', 'sans-serif'],
+        bester:['Bestermind', 'serif']
 
       },
       backgroundImage: {
         'bgAbout': "url('./assets/BGAbout.png')",
-        'bgMenu' : "url('./assets/bgMenu.png')" 
+        'bgMenu' : "url('./assets/bgMenu.png')" ,
+        'bgChef' : "url('./assets/bgChef.png')"
       }
       
     },

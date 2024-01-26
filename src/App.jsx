@@ -6,7 +6,7 @@ const App = () => {
 
   return (
     <>
-      <div className="bg-secondary">
+      <main className="bg-secondary">
         <Header />
         <Hero />
         <About />
@@ -20,7 +20,7 @@ const App = () => {
         <Blog />
         <GalleryContainer />
         <Footer />
-      </div>
+      </main>
     </>
   )
 }
