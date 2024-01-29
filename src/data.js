@@ -54,3 +54,30 @@ export const menuCocktails = [{
     features:"Gin | Sweet Vermouth | Campari | Orange garnish"
 },
 ] 
+
+export const customersData = [
+    {
+        name:"Wade Warren",
+        quote:"Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.",
+        occupation:"Sommelier",
+        image: 'src/assets/Wade.png'
+    },
+    {
+        name:"Jane Cooper",
+        quote:"Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.",
+        occupation:"Chef",
+        image:'src/assets/Jane.png'
+    },
+    {
+        name:"Robert Fox",
+        quote:"Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.",
+        occupation:"Chef",
+        image:'src/assets/Robert.png'
+    },
+    {
+        name:"Brooklyn Simmons",
+        quote:"Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.",
+        occupation:"Caterer",
+        image: 'src/assets/Brooklyn.png'
+    }
+]

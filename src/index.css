@@ -3,9 +3,7 @@
   src: url('./assets/fonts/BestermindRegular.ttf') format('truetype');
 }
 
-body {
-  font-family: 'Bestermind', sans-serif;
-}
+
 
 @tailwind base;
 @tailwind components;
