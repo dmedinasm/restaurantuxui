@@ -11,7 +11,7 @@ const Testimony = () => {
           <div className="flex justify-center items-center mt-2">
             <img src={decoration} alt="decoration title" className="text-center" />
           </div>
-          <h1 className="font-cormorant font-semibold text-[50px] text-center text-primary leading-[100%] tracking-[3%] mb-10">Happy Customers</h1>
+          <h1 className="font-cormorant font-semibold text-[50px] sm:text-[64px] text-center text-primary leading-[100%] sm:leading-[130%] tracking-[3%] mb-10">Happy Customers</h1>
         </aside>
         <aside className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-[80px] sm:gap-y-[64px]">
           {
