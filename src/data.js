@@ -81,3 +81,26 @@ export const customersData = [
         image: 'src/assets/Brooklyn.png'
     }
 ]
+
+export const awardsData = [
+    {
+        awardName:'Bib Gourmond',
+        text:'Lorem ipsum dolor sit amet, consectetur.',
+        image:'src/assets/award1.png'
+    },
+    {
+        awardName:'Rising Star',
+        text:'Lorem ipsum dolor sit amet, consectetur.',
+        image:'src/assets/award2.png'
+    },
+    {
+        awardName:'AA Hospitality ',
+        text:'Lorem ipsum dolor sit amet, consectetur.',
+        image:'src/assets/award5.png'
+    },
+    {
+        awardName:'Outstanding Chef',
+        text:'Lorem ipsum dolor sit amet, consectetur.',
+        image:'src/assets/award3.png'
+    }
+]
