@@ -104,3 +104,6 @@ export const awardsData = [
         image:'src/assets/award3.png'
     }
 ]
+
+
+export const galleryImages = ['src/assets/gallery01.png','src/assets/gallery02.png','src/assets/gallery03.png','src/assets/gallery04.png']

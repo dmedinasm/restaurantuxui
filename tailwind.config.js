@@ -19,7 +19,8 @@ module.exports  =  {
         'bgAbout': "url('./assets/BGAbout.png')",
         'bgMenu' : "url('./assets/bgMenu.png')" ,
         'bgChef' : "url('./assets/bgChef.png')",
-        'bgAward' : "url('./assets/bgaward.png')"
+        'bgAward' : "url('./assets/bgaward.png')",
+        'bgGallery':"url('./assets/bgGallery.png')"
       }
       
     },
