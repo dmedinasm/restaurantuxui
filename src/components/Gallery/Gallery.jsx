@@ -16,9 +16,9 @@ const Gallery = ({images}) => {
 
   return (
     <div className="flex items-center justify-between p-4">
-      <button onClick={handlePrevClick}> && <SlArrowLeft className="text-slate-400 text-[40px]"/></button>
+      <button onClick={handlePrevClick}>  <SlArrowLeft className="text-slate-400 text-[100%]"/></button>
           <img src={images[currentImageIndex]} alt="gallery image" className="w-[50%] cursor-pointer hover:opacity-50 hover:scale-[130%] transition duration-500 ease-in-out delay-500 rounded-md"/>
-      <button onClick={handleNextClick}> <SlArrowRight className="text-slate-400 text-[40px]"/></button>
+      <button onClick={handleNextClick}> <SlArrowRight className="text-slate-400 text-[100%]"/></button>
     </div>
   );
 }

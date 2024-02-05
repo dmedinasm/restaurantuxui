@@ -4,9 +4,10 @@ import decoration from '../../assets/decorationTitle.png'
 import { galleryImages } from '../../data'
 const GalleryContainer = () => {
   return (
-    <section className="bg-bgGallery bg-cover flex flex-col gap-[64px] md:gap-0 md:flex-row items-center py-[64px] px-[64px]">
+    <section className="bg-bgGallery bg-cover flex flex-col gap-[64px] md:gap-0 md:flex-row items-center py-[64px] px-[64px] ">
       <article className="flex flex-col items-center md:items-start justify-center gap-6">
-        <div className="flex flex-col items-center md:items-start md:text-start">
+        <s></s><div className="flex flex-col items-center md:items-start md:text-start">s
+
           <h3 className="font-cormorant font-bold text-[23px] text-white leading-[130%] tracking-[4%]">Instagram</h3>
           <div>
             <img src={decoration} alt='decoration title' />
