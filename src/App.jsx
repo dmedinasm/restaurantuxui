@@ -6,8 +6,8 @@ const App = () => {
 
   return (
     <>
+     <Header/>
       <main className="bg-secondary">
-        <Header />
         <Hero />
         <About />
         <Reservation />
@@ -19,8 +19,8 @@ const App = () => {
         <Awards />
         <Blog />
         <GalleryContainer />
-        <Footer />
       </main>
+      <Footer />
     </>
   )
 }

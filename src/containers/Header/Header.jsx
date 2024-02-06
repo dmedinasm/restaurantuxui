@@ -6,7 +6,7 @@ const Header = () => {
   const [isOpen, setOpen] = useState(false)
   
   return (
-    <section className='flex lg:flex-row justify-between items-center px-[30px] py-8'>
+    <section className='bg-secondary flex lg:flex-row justify-between items-center px-[30px] py-8'>
         <div >
             <img src={logo} alt="logo" className="cursor-pointer" />
         </div>

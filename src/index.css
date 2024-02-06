@@ -3,7 +3,9 @@
   src: url('./assets/fonts/BestermindRegular.ttf') format('truetype');
 }
 
-
+body{
+  background-color: rgb(12, 11, 8)
+}
 
 @tailwind base;
 @tailwind components;
