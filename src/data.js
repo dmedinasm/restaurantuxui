@@ -1,3 +1,15 @@
+import gallery1 from './assets/gallery01.png'
+import gallery2 from './assets/gallery02.png'
+import gallery3 from './assets/gallery03.png'
+import gallery4 from './assets/gallery04.png'
+import wade from './assets/Wade.png'
+import robert from './assets/Robert.png'
+import jane from './assets/Jane.png'
+import brooklyn from './assets/Brooklyn.png'
+import award1 from './assets/award1.png'
+import award2 from './assets/award2.png'
+import award3 from './assets/award3.png'
+import award5 from './assets/award5.png'
 export const navElements = ['Home', 'Pages','Contact Us','Blog', 'Landing']
 
 export const menuWines =
@@ -60,25 +72,25 @@ export const customersData = [
         name:"Wade Warren",
         quote:"Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.",
         occupation:"Sommelier",
-        image: 'src/assets/Wade.png'
+        image: wade
     },
     {
         name:"Jane Cooper",
         quote:"Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.",
         occupation:"Chef",
-        image:'src/assets/Jane.png'
+        image: jane
     },
     {
         name:"Robert Fox",
         quote:"Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.",
         occupation:"Chef",
-        image:'src/assets/Robert.png'
+        image: robert
     },
     {
         name:"Brooklyn Simmons",
         quote:"Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.",
         occupation:"Caterer",
-        image: 'src/assets/Brooklyn.png'
+        image: brooklyn
     }
 ]
 
@@ -86,24 +98,24 @@ export const awardsData = [
     {
         awardName:'Bib Gourmond',
         text:'Lorem ipsum dolor sit amet, consectetur.',
-        image:'src/assets/award1.png'
+        image: award1
     },
     {
         awardName:'Rising Star',
         text:'Lorem ipsum dolor sit amet, consectetur.',
-        image:'src/assets/award2.png'
+        image: award2
     },
     {
         awardName:'AA Hospitality ',
         text:'Lorem ipsum dolor sit amet, consectetur.',
-        image:'src/assets/award5.png'
+        image:award5
     },
     {
         awardName:'Outstanding Chef',
         text:'Lorem ipsum dolor sit amet, consectetur.',
-        image:'src/assets/award3.png'
+        image: award3
     }
 ]
 
 
-export const galleryImages = ['src/assets/gallery01.png','src/assets/gallery02.png','src/assets/gallery03.png','src/assets/gallery04.png']
+export const galleryImages = [gallery1,gallery2,gallery3,gallery4]
