@@ -1,5 +1,4 @@
 import React from 'react'
-import { Title } from '../../components/index'
 import HeroImg from '../../assets/Hero img.png'
 import slider from '../../assets/Slider.png'
 import decoration from '../../assets/decorationTitle.png'
@@ -37,14 +36,7 @@ const Hero = () => {
       <div className="position absolute top-[100%] ">
         <img className="w-[116px] h-[28px] " src={slider} alt="slider" />
       </div>
-      <div className="absolute top-[100%] mt-[80px] xl:right-[5%] xl:top-[99%]  ">
-        <div className="mb-10">
-          <div className="  border border-solid bg-gradient-to-r from-primary to-[rgba(220,202,135,0.24)]   rotate-90"></div>
-        </div>
-        <div>
-          <p className="font-cormorant font-bold text-[14px] leading-6 text-primary">SCROLL</p>
-        </div>
-      </div>
+
     </section>
   )
 }
